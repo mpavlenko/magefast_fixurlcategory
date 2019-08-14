@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Magefast_FixUrlCategory",
+    "type": "magento-module",
+    "license": "OSL-v3.0",
+    "homepage": "",
+    "description": "Fix for saving URL of category.",
+    "authors": [
+    {
+        "name": "Alex",
+        "email": "b07400@yandex.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

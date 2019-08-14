@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magefast_FixUrlCategory</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Fix for saving URL of category.</summary>
+    <description>Extension for fix problem URL, if use with cyrillic or other non-latin charset. &amp;#xD;&#xD;
+Extension based on Product Helper as example. URL key before save will converted, non-latin symbols will translit.</description>
+    <notes>Fix for category URL. Added changes for letter like '&#x44F;'='ya', '&#x44A;'='', '&#x44C;'='', '&#x44D;'='e'</notes>
+    <authors><author><name>Alex</name><user>alexhost</user><email>b07400@yandex.com</email></author></authors>
+    <date>2012-08-02</date>
+    <time>12:41:07</time>
+    <contents><target name="magelocal"><dir name="Magefast"><dir name="FixUrlCategory"><dir name="Helper"><file name="Data.php" hash="8edb5aee29b6077343338494c9c7c66e"/></dir><dir name="Model"><file name="Category.php" hash="dddcd3859f597ef12bdefad3a293d701"/></dir><dir name="etc"><file name="config.xml" hash="4af617f17e77af910c86a446d5bd789f"/></dir></dir></dir></target><target name="mage"><dir name="app"><dir name="etc"><dir name="modules"><file name="Magefast_FixUrlCategory.xml" hash="2cb30a168d275e171619048b227d829b"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
