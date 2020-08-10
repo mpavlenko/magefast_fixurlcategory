@@ -4,6 +4,7 @@
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Fix for saving URL of category.",
+    "extra": { "package-xml": "package.xml" },
     "authors": [
         {
             "name": "Alex",
